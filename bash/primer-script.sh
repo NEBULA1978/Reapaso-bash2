@@ -1,10 +1,14 @@
 #!/bin/bash
-#Autor:Ramon Pascual
+#Autor: Ramon Pascual
 #Mi primer script shell
 
 echo "Hola mundo"
-echo "Estooy en:"
-pwd
+echo "Estoy en: $(pwd)"
+echo "Mi usuario es: $USER"
+echo "Mi directorio home es: $HOME"
+echo "Mi shell actual es: $SHELL"
+echo "Dirigiéndome a $HOME"
 cd $HOME
-echo "Dirigiendome a $HOME"
-pwd
+echo "Ahora estoy en: $(pwd)"
+echo "Lista de archivos en las carpetas dentro del directorio home:"
+ls -R $HOME | more
