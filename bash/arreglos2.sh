@@ -98,3 +98,11 @@ while true; do
     esac
     read -p "Presione enter para continuar"
 done
+
+# Este script permite al usuario manipular tres arreglos de números, nombres y nombres2. El usuario puede ver los arreglos, ver el tamaño de los arreglos, ver un elemento de un arreglo específico, agregar un elemento a un arreglo, eliminar un elemento de un arreglo y salir del programa.
+
+# El script utiliza un bucle while para mostrar un menú de opciones al usuario y luego realiza una acción en función de la opción elegida por el usuario. La acción puede ser ver los arreglos, ver el tamaño de los arreglos, ver un elemento de un arreglo, agregar un elemento a un arreglo, eliminar un elemento de un arreglo o salir del programa.
+
+# Para agregar o eliminar un elemento de un arreglo, el script pide al usuario el número del arreglo y el índice del elemento. Luego, utiliza la función unset para eliminar un elemento o la sintaxis arreglo=( "${arreglo[@]}" "$elemento" ) para agregar un elemento a un arreglo.
+
+# El script también valida la entrada del usuario para asegurarse de que el número de arreglo y el índice sean válidos. Si la entrada no es válida, se muestra un mensaje de error al usuario.
