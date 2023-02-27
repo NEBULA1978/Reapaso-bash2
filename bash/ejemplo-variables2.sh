@@ -3,8 +3,8 @@
 echo "================================================================================"
 
 echo "Un ejemplo de las variables en bash, cuando consumes una a API genera un token "
-echo "Lo que hacemos es es ejecutar un cors"
-echo "Y nos genera un token y ese token almacenamos en variable o un json"  
+echo "Lo que hacemos es es ejecutar un curl o wget"
+echo "Y nos genera un token y ese token almacenamos en variable o un json"
 
 echo "==========================================================="
 echo "Tengo dos variables y un comando"
@@ -31,4 +31,3 @@ echo $ubicacion
 echo "============================================================"
 echo "Son variables dinamicas: Introducimos despues de ./(nombre archivo)" I
 echo "Introduzca por consola: ./ejemplo-variables2.sh Ramon Pascual "
-
