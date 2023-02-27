@@ -51,20 +51,13 @@ if [[ $flag3 == true || $flag4 == true || $flag5 == true || $flag6 == true ]]; t
   # Si flag3 es verdadera, imprime un mensaje
   if [[ $flag3 == true ]]; then
     echo "La bandera 3 es verdadera"
-  fi
-  # Si flag4 es verdadera, imprime un mensaje
-  if [[ $flag4 == true ]]; then
+  elif [[ $flag4 == true ]]; then
     echo "La bandera 4 es verdadera"
-  fi
-  # Si flag5 es verdadera, imprime un mensaje
-  if [[ $flag5 == true ]]; then
+  elif [[ $flag5 == true ]]; then
     echo "La bandera 5 es verdadera"
-  fi
-  # Si flag6 es verdadera, imprime un mensaje
-  if [[ $flag6 == true ]]; then
+  elif [[ $flag6 == true ]]; then
     echo "La bandera 6 es verdadera"
+  else
+    echo "Ninguna bandera es verdadera"
   fi
-else
-  # Si ninguna bandera es verdadera, imprime un mensaje
-  echo "Ninguna bandera es verdadera"
 fi
